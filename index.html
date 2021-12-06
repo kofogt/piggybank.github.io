@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Piggyvest</title>
     <link rel="shortcut icon" href="logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <nav>
@@ -16,7 +17,32 @@
       <h5>Welcome to the future of savings and investments</h5>
       <form>
         <label>Full Name</label>
-        <
+        <input type="text" id="fullname" placeholder="Full Name" /></br>
+
+        <label>Email</label>
+        <input type="email" id="email" placeholder="Email Address" /></br>
+
+        <label>Phone Number</label>
+        <input type="number" id="phonenumber" placeholder="Phone Number" /></br>
+
+        <label>Password</label>
+        <input type="password" id="password" placeholder="Password" /></br>
+
+        <label>Referrer Phone or Promo Code (Optional)</label>
+        <input
+          type="number"
+          id="promocode"
+          placeholder="Referrer Phone Or Code"
+        /></br>
+
+        <label>How Did You Hear About Us? (Optional) </label>
+        <select name="How Did You Hear About Us">
+          <option value="1">Facebook</option>
+          <option value="2">Twitter</option>
+          <option value="3">Instagram</option>
+          <option value="4">Online Blog</option>
+        </select></br>
+        <button type="submit">Create Account</button></br>
       </form>
     </article>
   </body>
