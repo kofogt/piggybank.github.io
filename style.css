@@ -6,6 +6,8 @@ body {
 .laga {
   display: block;
   text-align: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
 }
 article {
   display: block;
@@ -62,5 +64,19 @@ h5 {
   font-size: 10px;
   text-align: center;
   line-height: 0%;
+  color: grey;
+}
+section {
+  text-align: center;
+  padding: 20px;
+}
+a:link {
+  text-align: center;
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+}
+a:link:hover {
   color: grey;
 }
