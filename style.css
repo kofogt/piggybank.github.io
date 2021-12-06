@@ -80,3 +80,9 @@ a:link {
 a:link:hover {
   color: grey;
 }
+a:link:active {
+  color: white;
+}
+a:link:visited {
+  color: white;
+}
